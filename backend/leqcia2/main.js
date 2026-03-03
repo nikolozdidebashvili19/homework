@@ -1,5 +1,5 @@
-import { readdir } from "node:fs/promises";
-import { type } from "node:os";
+// import { readdir } from "node:fs/promises";
+// import { type } from "node:os";
 
 async function main() {
   //    const file = await fs.readFile("products.json", "utf-8");
@@ -23,6 +23,6 @@ async function main() {
   // } else {
   //     console.log("folder:" + files)
   // }
-}
+// }
 
-main();
+// main();

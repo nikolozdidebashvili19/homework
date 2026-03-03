@@ -1,0 +1,88 @@
+[
+  {
+    "dishName": "Classic Margherita Pizza",
+    "ingredientCount": 6,
+    "isQuick": false
+  },
+  { "dishName": "Vegetarian Stir-Fry", "ingredientCount": 9, "isQuick": true },
+  {
+    "dishName": "Chocolate Chip Cookies",
+    "ingredientCount": 9,
+    "isQuick": true
+  },
+  {
+    "dishName": "Chicken Alfredo Pasta",
+    "ingredientCount": 8,
+    "isQuick": true
+  },
+  { "dishName": "Mango Salsa Chicken", "ingredientCount": 8, "isQuick": true },
+  {
+    "dishName": "Quinoa Salad with Avocado",
+    "ingredientCount": 8,
+    "isQuick": false
+  },
+  {
+    "dishName": "Tomato Basil Bruschetta",
+    "ingredientCount": 7,
+    "isQuick": true
+  },
+  {
+    "dishName": "Beef and Broccoli Stir-Fry",
+    "ingredientCount": 9,
+    "isQuick": false
+  },
+  { "dishName": "Caprese Salad", "ingredientCount": 6, "isQuick": true },
+  { "dishName": "Shrimp Scampi Pasta", "ingredientCount": 8, "isQuick": true },
+  { "dishName": "Chicken Biryani", "ingredientCount": 12, "isQuick": false },
+  { "dishName": "Chicken Karahi", "ingredientCount": 12, "isQuick": false },
+  { "dishName": "Aloo Keema", "ingredientCount": 12, "isQuick": false },
+  { "dishName": "Chapli Kebabs", "ingredientCount": 13, "isQuick": false },
+  {
+    "dishName": "Saag (Spinach) with Makki di Roti",
+    "ingredientCount": 8,
+    "isQuick": false
+  },
+  {
+    "dishName": "Japanese Ramen Soup",
+    "ingredientCount": 11,
+    "isQuick": false
+  },
+  {
+    "dishName": "Moroccan Chickpea Tagine",
+    "ingredientCount": 12,
+    "isQuick": true
+  },
+  { "dishName": "Korean Bibimbap", "ingredientCount": 10, "isQuick": false },
+  { "dishName": "Greek Moussaka", "ingredientCount": 14, "isQuick": false },
+  {
+    "dishName": "Butter Chicken (Murgh Makhani)",
+    "ingredientCount": 11,
+    "isQuick": false
+  },
+  { "dishName": "Thai Green Curry", "ingredientCount": 9, "isQuick": false },
+  { "dishName": "Mango Lassi", "ingredientCount": 6, "isQuick": true },
+  { "dishName": "Italian Tiramisu", "ingredientCount": 6, "isQuick": false },
+  { "dishName": "Turkish Kebabs", "ingredientCount": 10, "isQuick": false },
+  {
+    "dishName": "Blueberry Banana Smoothie",
+    "ingredientCount": 6,
+    "isQuick": true
+  },
+  {
+    "dishName": "Mexican Street Corn (Elote)",
+    "ingredientCount": 5,
+    "isQuick": true
+  },
+  { "dishName": "Russian Borscht", "ingredientCount": 10, "isQuick": false },
+  {
+    "dishName": "South Indian Masala Dosa",
+    "ingredientCount": 10,
+    "isQuick": false
+  },
+  {
+    "dishName": "Lebanese Falafel Wrap",
+    "ingredientCount": 8,
+    "isQuick": true
+  },
+  { "dishName": "Brazilian Caipirinha", "ingredientCount": 4, "isQuick": true }
+]
