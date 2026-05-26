@@ -2,7 +2,7 @@ const { Router } = require("express");
 const userModel = require("./user.model");
 const isValidObjectId = require("../middlewares/is-valid-object-id");
 const validateMiddleware = require("../middlewares/validate.middleware");
-const userSchema = require("./user.dto");
+ 
 const productModel = require("../products/product.model");
 
 
@@ -10,15 +10,10 @@ const userRouter = new Router()
 
 
 userRouter.get('/', async (req, res) => {
-    const users = await userModel.find().populate({path: 'products', select: 'price name'})
+    const users = await userModel.find().sort({_id: -1}).populate({path: 'products', select: 'price name'})
     res.json(users)
 })
 
-userRouter.post('/', validateMiddleware(userSchema), async (req, res) => {
-    
-    const newUser = await userModel.create({fullName: req.body.fullName})
-    res.status(201).json(newUser)
-})
 
 userRouter.get('/:id', isValidObjectId, async (req, res) => {
     const user = await userModel.findById(req.params.id)

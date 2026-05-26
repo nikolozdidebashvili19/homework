@@ -6,6 +6,16 @@ const userSchema = new mongoose.Schema({
         type: String,
         require: true
     },
+    email: {
+        type: String,
+        require: true,
+        unique: true
+    },
+    password: {
+        type: String,
+        require: true , 
+        select: false
+    },
     products: {
         type: [mongoose.Schema.Types.ObjectId],
         ref: 'products',
