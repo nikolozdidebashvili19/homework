@@ -1,6 +1,5 @@
 const { Schema, default: mongoose } = require("mongoose");
 
-
 const userSchema = new Schema({
   name: {
     type: String,
@@ -33,7 +32,17 @@ const userSchema = new Schema({
     unique: true,
     lowercase: true,
     trim: true,
-  }
+  },
+  avatar: {
+    url: {
+      type: String,
+      default: null,
+    },
+    publicId: {
+      type: String,
+      default: null,
+    },
+  },
 });
 
-module.exports = mongoose.model('users', userSchema)
+module.exports = mongoose.model("users", userSchema);
